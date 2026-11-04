@@ -1,0 +1,29 @@
+# ─── Default: auto-normalise line endings to LF on commit ────────────────────
+* text=auto eol=lf
+
+# ─── Source code ─────────────────────────────────────────────────────────────
+*.py   text eol=lf
+*.js   text eol=lf
+*.jsx  text eol=lf
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf
+
+# ─── Verilog / Hardware ───────────────────────────────────────────────────────
+*.v    text eol=lf
+*.do   text eol=lf
+*.bat  text eol=crlf
+
+# ─── Binary files (do not diff/merge) ────────────────────────────────────────
+*.pkl      binary
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.svg      binary
+*.pdf      binary
+*.csv      text eol=lf
+
