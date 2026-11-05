@@ -1,0 +1,2 @@
+Model,Accuracy,F1_Weighted,Precision,Recall,ROC_AUC
+XGBoost,0.4514,0.4493,0.4492,0.4514,0.7263
